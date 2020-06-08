@@ -9,16 +9,15 @@ git clone
 
 goto https://console.firebase.google.com/  
 If it is not already associated with your GCP project, chose Add a project from the project drop down at the top of the screen  
-![select project img](./img/cb-select-project.png =302x)  
+<img src="./img/cb-select-project.png" width=302>
 
 
 Click the gear icon in the topleft of the Firebase menu, and Chose project settings  
-![select project img](./img/fb-proj-settings.png =576x)  
-
+<img src="./img/fb-proj-settings.png" width=302>
 
 On the general page add a web app under "your apps" (leave hosting unchecked)  
 Copy the JavaScript config into ./frontend/main.js  
-![select project img](./img/fb-js-config.png =907x)  
+<img src="./img/fb-js-config.png" width=302>
 
 also in main.js change backendHostUrl to match your backend  
 and change the CORs front end url to match your front end application URL in main.py in the backend folder  
