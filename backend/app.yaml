@@ -1,0 +1,14 @@
+runtime: python37
+service: backend
+
+inbound_services:
+    - warmup
+
+- url: /.*
+  script: auto
+  secure: always
+
+env_variables:
+  # Replace with your Firebase project ID.
+  FIREBASE_PROJECT_ID: '1:290791887621:web:4de223af04c3dc3d1d9d6c'
+  GAE_USE_SOCKETS_HTTPLIB : 'true'
